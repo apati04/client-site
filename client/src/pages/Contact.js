@@ -2,7 +2,7 @@ import React from "react";
 import SideBar from "./../components/SideBar";
 import { Header } from "semantic-ui-react";
 
-const AboutMe = () => {
+const Contact = () => {
 
   const style = {
     container: {
@@ -13,9 +13,9 @@ const AboutMe = () => {
   return(
     <div style={style.container}>
       <SideBar/>
-      <Header>About Me</Header>
+      <Header>Contact</Header>
     </div>
   );
 }
 
-export default AboutMe;
+export default Contact;
