@@ -3,7 +3,7 @@ import background from "./../images/golf-course.jpg";
 import { Link } from "react-router-dom";
 import { Container, Header, Icon } from "semantic-ui-react";
 
-const Home = () => {
+const Landing = () => {
 
   const style = {
     container: {
@@ -42,4 +42,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default Landing;
