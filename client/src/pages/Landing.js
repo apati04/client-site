@@ -1,5 +1,5 @@
 import React from "react";
-import background from "./../images/golf-course.jpg";
+import background from "./../images/landing.webp";
 import { Link } from "react-router-dom";
 import { Container, Header, Icon, Transition } from "semantic-ui-react";
 
@@ -17,7 +17,7 @@ const Landing = () => {
       backgroundRepeat: "no-repeat"
     },
     font: {
-      color: "orange"
+      color: "white"
     }
   }
 
@@ -27,7 +27,7 @@ const Landing = () => {
         textAlign="center"
         style={style.container}
       >
-        <Transition animation="fade down" duration={3000} transitionOnMount={true}>
+        <Transition animation="fade down" duration={2000} transitionOnMount={true}>
           <Container>
             <Header size="huge" style={style.font}>JAMES OH</Header>
             <Header size="large" style={style.font}>GOLF INSTRUCTOR</Header>
