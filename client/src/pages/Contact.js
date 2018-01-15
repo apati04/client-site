@@ -1,7 +1,7 @@
 import React from "react";
 import SideBar from "./../components/SideBar";
 import { Header } from "semantic-ui-react";
-
+import ContactForm from '../components/Form';
 const Contact = () => {
 
   const style = {
@@ -14,6 +14,7 @@ const Contact = () => {
     <div style={style.container}>
       <SideBar/>
       <Header>Contact</Header>
+      <ContactForm />
     </div>
   );
 }
